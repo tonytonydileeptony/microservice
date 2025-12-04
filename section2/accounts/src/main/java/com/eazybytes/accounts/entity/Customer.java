@@ -15,7 +15,6 @@ import lombok.*;
 public class Customer extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-
     private Long customerId;
     private String name;
     private String email;
