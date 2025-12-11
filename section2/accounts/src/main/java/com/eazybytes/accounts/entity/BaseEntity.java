@@ -17,6 +17,8 @@ import java.time.LocalDate;
 public class BaseEntity {
     @Column(updatable = false)
     private LocalDate createdAt;
+    @Column(updatable = false)
+    private String createdBy;
     @Column(insertable = false)
     private LocalDate updatedAt;
     @Column(insertable = false)
